@@ -45,7 +45,7 @@ end
 
 mouse.KeyDown:Connect(function(key)
 	key = key:lower()
-	if key == "e" then
+	if key == "g" then
 		flying = not flying
 		if flying then
 			Fly()
